@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: rate-limit-demo
+
+app:
+  rate-limit:
+    max-requests: 3
+    window: 10s
+
